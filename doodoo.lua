@@ -71,7 +71,7 @@ AutoFarmTab.Toggle({
                                     break
                                 end
                                 Hrp.CFrame = CFrame.new(EHrp.Position - EHrp.CFrame.LookVector * 3, EHrp.Position)
-                                InputLibrary.CenterMouseClick()
+                                InputLibrary.VirtualCenterMouseClick()
                                 for Number=1, 5 do
                                     RemoteAttack(Number, EHrp.Position)
                                 end
